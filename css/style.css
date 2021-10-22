@@ -1,0 +1,302 @@
+/* &display=swap - Нужно в конце ставить ПОЛЮБОМУ
+&subset=cyrillic-ext - Вставить Если нужно вставить если нужна кириллица 
+&display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: Roboto;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.task1 {
+	margin: 50px;
+}
+.conteiner {
+	max-width: 583px;
+}
+.header {
+	max-width: 450px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	align-items: center;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5d62b5;
+	margin: 0px 0px 33px 0px;
+}
+.header::before {
+	background: url(../img/Overline\ Mark.png) 0 0;
+	display: inline-block;
+	margin: 0px 16px 0px 0px;
+	min-width: 20px;
+	min-height: 27px;
+	vertical-align: top;
+	content: "";
+}
+.header2 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+	margin: 0px 0px 68px 0px;
+}
+.h1,
+.h2,
+.h3 {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #f2726f;
+	margin: 0px 0px 20px 0px;
+}
+.block1,
+.block2,
+.block3 {
+	max-width: 325px;
+	display: inline-block;
+	margin: 0px 24px 0px 0px;
+}
+.block1::before {
+	content: "";
+	background: url(../img/01.png) 0 0 no-repeat;
+	width: 63px;
+	height: 63px;
+	vertical-align: top;
+	display: inline-block;
+	margin: 0px 23px 0px 0px;
+}
+.teg1,
+.teg2,
+.teg3 {
+	max-width: 235px;
+	display: inline-block;
+}
+.text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+.block2::before {
+	content: "";
+	background: url(../img/dog_stream_24x.png) 0 0 no-repeat;
+	margin: 0px 23px 0px 0px;
+	display: inline-block;
+	width: 63px;
+	height: 63px;
+	vertical-align: top;
+	margin: 0px 23px 0px 0px;
+}
+.block3::before {
+	content: "";
+	background: url(../img/dog_vet_24x.png) 0 0 no-repeat;
+	margin: 0px 23px 0px 0px;
+	display: inline-block;
+	width: 63px;
+	height: 63px;
+	vertical-align: top;
+	margin: 0px 23px 0px 0px;
+}
+
+.tast2 {
+}
+.box {
+	background: #252525;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	max-width: 255px;
+	padding: 24px 24px 60px 24px;
+	margin: 50px;
+}
+.h1task2 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 26px;
+	letter-spacing: -0.275px;
+	text-transform: capitalize;
+	color: #ffffff;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	max-width: 207px;
+}
+.h1task2::after {
+	display: block;
+	content: "";
+	width: 56px;
+	height: 2px;
+	background: rgba(52, 199, 89, 1);
+	margin: 10px 0px 24px 0px;
+}
+.text_task2 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: -0.1625px;
+	color: rgba(255, 255, 255, 0.5);
+	max-width: 207px;
+}
+
+.div1 {
+	display: inline-block;
+	background-color: greenyellow;
+	padding: 20px;
+}
+.div1:hover .link1 {
+	visibility: visible;
+}
+.link1 {
+	visibility: hidden;
+	color: black;
+}
+.link1:hover {
+	color: red;
+}
+.div2 {
+	display: inline-block;
+	background-color: greenyellow;
+	padding: 20px;
+}
+.link2:hover {
+	color: red;
+}
+.div3 {
+	display: inline-block;
+	background-color: greenyellow;
+	padding: 20px;
+}
+.link3:visited {
+	color: red;
+}
+.div4 {
+	display: inline-block;
+	background-color: greenyellow;
+	padding: 20px;
+}
+.link4:active {
+	display: inline-block;
+	background-color: black;
+	padding: 25px;
+}
+.div5 {
+	display: inline-block;
+	background-color: greenyellow;
+	padding: 20px;
+}
+.link5:focus {
+	background-color: black;
+	padding: 30px;
+	color: blanchedalmond;
+}
+.ht2p1 {
+	margin: 20px;
+}
+.ht2p1 * {
+	margin: 10px;
+}
+.ht2p1 p:first-of-type {
+	color: greenyellow;
+}
+.ht2p1 p:last-of-type {
+	color: sandybrown;
+}
+.ht2p1 *:first-child {
+	color: royalblue;
+}
+.ht2p1 *:last-child {
+	color: slateblue;
+}
+
+.ht2p2 {
+	margin: 20px;
+}
+.ht2p2 * {
+	margin: 10px;
+}
+.ht2p2 :nth-child(even) {
+	color: palevioletred;
+}
+.ht2p2 :nth-child(odd) {
+	color: sandybrown;
+}
+.ht2p3::first-line {
+	color: green;
+}
+.ht2p3 p::first-letter {
+	color: plum;
+}
+.ht2p4 {
+	margin: 50px;
+}
+.ol_list {
+	counter-reset: item;
+}
+.ol_list li::before {
+	counter-increment: item;
+	content: counter(item) ")))";
+	vertical-align: top;
+	display: inline-block;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 5px 0px 0px;
+	color: green;
+}
+
+.ol_list2 li::after {
+	content: "";
+	min-height: 2px;
+	vertical-align: middle;
+	display: inline-block;
+	background-color: plum;
+	width: 30px;
+	height: 2px;
+	margin: 20px;
+}
